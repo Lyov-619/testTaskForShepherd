@@ -5,8 +5,6 @@ const bookRoomHelper = async (request, body) => {
         headers: {
             'accept': '*/*',
             'content-type': 'application/json',
-
-
         },
         data: body
     });

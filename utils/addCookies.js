@@ -2,7 +2,6 @@ import {BASE_URL} from "../resources/environment";
 
 async function setAdminAuthCookie(browser, token){
 
-
     const context = await browser.newContext();
     const myPage = await context.newPage();
     await myPage.goto(BASE_URL)
